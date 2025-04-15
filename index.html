@@ -1,20 +1,118 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ARYAM ASEIRI</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Aryam Aseiri</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px 0;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0074D9;
+    }
+    section {
+      padding: 50px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 12px;
+      background-color: #eaeaea;
+      border-radius: 5px;
+      color: #333;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      background-color: #d1d1d1;
+    }
+  </style>
 </head>
 <body>
+
   <div class="container">
-    <img src="C:\Users\Aryam\Downloads\Aryam1.ico" alt="" class="profile-img" />
-    <h1>ARYAM ASEIRI</h1>
-    <p>Specializing in artificial intelligence</p>
-    <div class="social-links">
-      <a href="https://github.com/ProAryam-X100" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/aryamaseiri/" target="_blank">LinkedIn</a>
-    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#articles">Articles</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" style="text-align: center;">
+      <img src="aryam.jpg" alt="Aryam Aseiri" class="profile-img" />
+      <h1>Aryam Aseiri</h1>
+      <p>Specializing in Artificial Intelligence</p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Aryam, a passionate Computer and Network Engineering student with a specialization in AI. I love learning new technologies, building smart solutions, and sharing knowledge.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming in Java, Python</li>
+        <li>AI & Machine Learning Basics</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Problem Solving & Algorithms</li>
+        <li>IoT and Smart Systems</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Coming soon... 👩🏻‍💻</p>
+      <!-- You can list your projects here later -->
+    </section>
+
+    <!-- Articles -->
+    <section id="articles">
+      <h2>Articles</h2>
+      <ul>
+        <li><a href="https://www.scienceworks.online/posts/15" target="_blank">كيف ساهم اختراع الترانزستور في نهضة الإلكترونيات؟</a></li>
+        <!-- Add more articles here -->
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="social-links">
+        <a href="mailto:aryamaseiri@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/aryamaseiri/" target="_blank">LinkedIn</a>
+        <a href="https://x.com/ill_Ar100" target="_blank">X</a>
+        <a href="https://github.com/ProAryam-X100" target="_blank">GitHub</a>
+      </div>
+    </section>
   </div>
+
 </body>
 </html>
